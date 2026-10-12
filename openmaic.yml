@@ -1,0 +1,12 @@
+providers:
+  minimax:
+    preset: minimax
+    apiKey: ${MINIMAX_API_KEY}
+
+slots:
+  llm: minimax:MiniMax-M2.5
+  course.outline: minimax:MiniMax-M2.5
+  course.content: minimax:MiniMax-M2.5
+  image: minimax
+  tts: minimax
+  webSearch: minimax
